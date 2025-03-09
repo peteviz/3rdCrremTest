@@ -1,0 +1,738 @@
+{
+    "metadata": {
+      "source": "IEE Projects TABULA + EPISCOPE",
+      "units": "kWh/m²"
+    },
+"building_system_mapping": {
+    "DE.N.SFH.01.Gen": ["DE.SUH.01", "DE.SUH.02", "DE.SUH.03", "DE.SUH.04"],
+    "DE.N.SFH.02.Gen": ["DE.SUH.01", "DE.SUH.02", "DE.SUH.03", "DE.SUH.04"],
+    "DE.N.SFH.03.Gen": ["DE.SUH.01", "DE.SUH.02", "DE.SUH.03", "DE.SUH.04"],
+    "DE.N.SFH.04.Gen": ["DE.SUH.01", "DE.SUH.02", "DE.SUH.03", "DE.SUH.04"],
+    "DE.N.SFH.05.Gen": ["DE.SUH.01", "DE.SUH.02", "DE.SUH.03", "DE.SUH.04"],
+    "DE.N.SFH.06.Gen": ["DE.SUH.01", "DE.SUH.02", "DE.SUH.03", "DE.SUH.04"],
+    "DE.N.SFH.07.Gen": ["DE.SUH.01", "DE.SUH.02", "DE.SUH.03", "DE.SUH.04"],
+    "DE.N.SFH.08.Gen": ["DE.SUH.01", "DE.SUH.02", "DE.SUH.03", "DE.SUH.04"],
+    "DE.N.SFH.09.Gen": ["DE.SUH.05", "DE.SUH.06", "DE.SUH.07"],
+    "DE.N.SFH.10.Gen": ["DE.SUH.05", "DE.SUH.06", "DE.SUH.07"],
+    "DE.N.SFH.11.Gen": ["DE.SUH.08", "DE.SUH.09", "DE.SUH.10"],
+    "DE.N.SFH.12.Gen": ["DE.SUH.11", "DE.SUH.12", "DE.SUH.13"],
+    "DE.N.TH.02.Gen": ["DE.SUH.01", "DE.SUH.02", "DE.SUH.03", "DE.SUH.04"],
+    "DE.N.TH.03.Gen": ["DE.SUH.01", "DE.SUH.02", "DE.SUH.03", "DE.SUH.04"],
+    "DE.N.TH.04.Gen": ["DE.SUH.01", "DE.SUH.02", "DE.SUH.03", "DE.SUH.04"],
+    "DE.N.TH.05.Gen": ["DE.SUH.01", "DE.SUH.02", "DE.SUH.03", "DE.SUH.04"],
+    "DE.N.TH.06.Gen": ["DE.SUH.01", "DE.SUH.02", "DE.SUH.03", "DE.SUH.04"],
+    "DE.N.TH.07.Gen": ["DE.SUH.01", "DE.SUH.02", "DE.SUH.03", "DE.SUH.04"],
+    "DE.N.TH.08.Gen": ["DE.SUH.01", "DE.SUH.02", "DE.SUH.03", "DE.SUH.04"],
+    "DE.N.TH.09.Gen": ["DE.SUH.05", "DE.SUH.06", "DE.SUH.07"],
+    "DE.N.TH.10.Gen": ["DE.SUH.05", "DE.SUH.06", "DE.SUH.07"],
+    "DE.N.TH.11.Gen": ["DE.SUH.08", "DE.SUH.09", "DE.SUH.10"],
+    "DE.N.TH.12.Gen": ["DE.SUH.11", "DE.SUH.12", "DE.SUH.13"],
+    "DE.N.MFH.01.Gen": ["DE.MUH.01", "DE.MUH.02", "DE.MUH.03", "DE.MUH.04", "DE.MUH.05", "DE.MUH.06"],
+    "DE.N.MFH.02.Gen": ["DE.MUH.01", "DE.MUH.02", "DE.MUH.03", "DE.MUH.04", "DE.MUH.05", "DE.MUH.06"],
+    "DE.N.MFH.03.Gen": ["DE.MUH.01", "DE.MUH.02", "DE.MUH.03", "DE.MUH.04", "DE.MUH.05", "DE.MUH.06"],
+    "DE.N.MFH.04.Gen": ["DE.MUH.01", "DE.MUH.02", "DE.MUH.03", "DE.MUH.04", "DE.MUH.05", "DE.MUH.06"],
+    "DE.N.MFH.05.Gen": ["DE.MUH.01", "DE.MUH.02", "DE.MUH.03", "DE.MUH.04", "DE.MUH.05", "DE.MUH.06"],
+    "DE.N.MFH.06.Gen": ["DE.MUH.01", "DE.MUH.02", "DE.MUH.03", "DE.MUH.04", "DE.MUH.05", "DE.MUH.06"],
+    "DE.N.MFH.07.Gen": ["DE.MUH.01", "DE.MUH.02", "DE.MUH.03", "DE.MUH.04", "DE.MUH.05", "DE.MUH.06"],
+    "DE.N.MFH.08.Gen": ["DE.MUH.01", "DE.MUH.02", "DE.MUH.03", "DE.MUH.04", "DE.MUH.05", "DE.MUH.06"],
+    "DE.N.MFH.09.Gen": ["DE.MUH.07", "DE.MUH.08", "DE.MUH.09"],
+    "DE.N.MFH.10.Gen": ["DE.MUH.07", "DE.MUH.08", "DE.MUH.09"],
+    "DE.N.MFH.11.Gen": ["DE.MUH.10", "DE.MUH.11", "DE.MUH.12"],
+    "DE.N.MFH.12.Gen": ["DE.MUH.13", "DE.MUH.14", "DE.MUH.15"],
+    "DE.N.AB.02.Gen": ["DE.MUH.01", "DE.MUH.02", "DE.MUH.03", "DE.MUH.04", "DE.MUH.05", "DE.MUH.06"],
+    "DE.N.AB.03.Gen": ["DE.MUH.01", "DE.MUH.02", "DE.MUH.03", "DE.MUH.04", "DE.MUH.05", "DE.MUH.06"],
+    "DE.N.AB.04.Gen": ["DE.MUH.01", "DE.MUH.02", "DE.MUH.03", "DE.MUH.04", "DE.MUH.05", "DE.MUH.06"],
+    "DE.N.AB.05.Gen": ["DE.MUH.01", "DE.MUH.02", "DE.MUH.03", "DE.MUH.04", "DE.MUH.05", "DE.MUH.06"],
+    "DE.N.AB.06.Gen": ["DE.MUH.01", "DE.MUH.02", "DE.MUH.03", "DE.MUH.04", "DE.MUH.05", "DE.MUH.06"],
+    "DE.N.AB.05.HR": ["DE.MUH.01", "DE.MUH.02", "DE.MUH.03", "DE.MUH.04", "DE.MUH.05", "DE.MUH.06"],
+    "DE.N.AB.06.HR": ["DE.MUH.01", "DE.MUH.02", "DE.MUH.03", "DE.MUH.04", "DE.MUH.05", "DE.MUH.06"]
+  },
+    "system_definitions": {
+      "DE.SUH.01": {
+        "level1": "gas-fueled central heating system",
+        "level2": "condensing boiler + improvement of distribution",
+        "level3": "condensing boiler + additional thermal solar system and ventilation system"
+      },
+      "DE.SUH.02": {
+        "level1": "oil-fueled central heating system + electric DHW",
+        "level2": "condensing boiler + improvement of distribution + thermal solar system",
+        "level3": "woodpellets boiler + thermal solar system + ventilation system"
+      },
+      "DE.SUH.03": {
+        "level1": "electrical night storage system",
+        "level2": "electrical heat pump, heat source: external air + thermal solar system",
+        "level3": "electrical heat pump, heat source: ground + ventilation system"
+      },
+      "DE.SUH.04": {
+        "level1": "oil-fueled central heating system",
+        "level2": "condensing boiler + improvement of distribution + thermal solar system + ventilation system",
+        "level3": "woodpellets boiler + thermal solar system + ventilation system"
+      },
+      "DE.SUH.05": {
+        "level1": "gas-fueled central heating system: condensing boiler + thermal DHW solar system",
+        "level2": "as Var. 1 + thermal DHW solar system + exhaust ventilation system",
+        "level3": "as Var. 2 + heat recovery (balanced ventilation system), no DHW circulation"
+      },
+      "DE.SUH.06": {
+        "level1": "central heating system fueled by wood pellets + DHW circulation loop",
+        "level2": "as Var. 1 + exhaust ventilation system",
+        "level3": "as Var. 2, no DHW circulation loop"
+      },
+      "DE.SUH.07": {
+        "level1": "central heating system powered by an air source heat pump + DHW circulation loop",
+        "level2": "as Var. 1 + exhaust ventilation system",
+        "level3": "ground source heat pump, no DHW circulation loop + ventilation system with heat recovery"
+      },
+      "DE.SUH.08": {
+        "level1": "new gas-fueled central heating system: condensing boiler + thermal DHW solar system + exhaust ventilation system",
+        "level2": "as Var. 1 + heat recovery (balanced ventilation system), no DHW circulation",
+        "level3": "as Var. 2"
+      },
+      "DE.SUH.09": {
+        "level1": "new central heating system fueled by wood pellets + DHW circulation loop + exhaust ventilation system",
+        "level2": "as Var. 1, no DHW circulation loop",
+        "level3": "as Var. 2 + ventilation system with heat recovery + thermal solar system (DHW)"
+      },
+      "DE.SUH.10": {
+        "level1": "new central heating system powered by an air source heat pump + DHW circulation loop + exhaust ventilation system",
+        "level2": "ground source heat pump, no DHW circulation loop + exhaust ventilation system",
+        "level3": "as Var. 2 + ventilation system with heat recovery + PV system"
+      },
+      "DE.SUH.11": {
+        "level1": "new gas-fueled central heating system: condensing boiler + thermal DHW solar system + exhaust ventilation system, no DHW circulation loop",
+        "level2": "as Var. 1 + heat recovery (balanced ventilation system)",
+        "level3": "as Var. 2"
+      },
+      "DE.SUH.12": {
+        "level1": "new central heating system fueled by wood pellets + exhaust ventilation system, no DHW circulation loop",
+        "level2": "as Var. 1",
+        "level3": "as Var. 2 + ventilation system with heat recovery + thermal solar system (DHW)"
+      },
+      "DE.SUH.13": {
+        "level1": "ground source heat pump, no DHW circulation loop + exhaust ventilation system",
+        "level2": "as Var. 1",
+        "level3": "as Var. 2 + ventilation system with heat recovery + PV system"
+      },
+      "DE.MUH.01": {
+      "level1": "gas-fueled central heating system",
+      "level2": "condensing boiler",
+      "level3": "as before, in addition thermal solar system and ventilation system"
+      },
+      "DE.MUH.02": {
+        "level1": "oil-fueled central heating system + electr. DHW",
+        "level2": "condensing boiler + improvement of distribution + thermal solar system",
+        "level3": "woodpellets boiler + ventilation system"
+      },
+      "DE.MUH.03": {
+        "level1": "electrical night storage system",
+        "level2": "gas-fueled heating system for each apartment",
+        "level3": "wood pellets boiler"
+      },
+      "DE.MUH.04": {
+        "level1": "gas-fueled district heating system",
+        "level2": "combined heat and power plant",
+        "level3": "biomass-fueled plant"
+      },
+      "DE.MUH.05": {
+        "level1": "gas-fueled heating system for each apartment",
+        "level2": "condensing boiler",
+        "level3": "as before, in addition ventilation system with heat recovery"
+      },
+      "DE.MUH.06": {
+        "level1": "oil-fueled central heating system",
+        "level2": "condensing boiler + improvement of distribution + thermal solar system + ventilation system",
+        "level3": "woodpellets boiler + ventilation system"
+      },
+      "DE.MUH.07": {
+        "level1": "gas-fueled central heating system: condensing boiler",
+        "level2": "as Var. 1 + thermal DHW solar system + exhaust ventilation system",
+        "level3": "as Var. 2 + ventilation system with heat recovery"
+      },
+      "DE.MUH.08": {
+        "level1": "central heating system fueled by wood pellets",
+        "level2": "as Var. 1 + thermal DHW solar system + exhaust ventilation system",
+        "level3": "as Var. 2 + ventilation system with heat recovery"
+      },
+      "DE.MUH.09": {
+        "level1": "central heating system powered by an air source heat pump",
+        "level2": "as Var. 1 + exhaust ventilation system",
+        "level3": "as Var. 2 + ventilation system with heat recovery"
+      },
+      "DE.MUH.10": {
+        "level1": "new gas-fueled central heating system: condensing boiler + thermal DHW solar system + exhaust ventilation system",
+        "level2": "as Var. 1",
+        "level3": "as Var. 2 + CHP system + heat recovery (balanced ventilation system)"
+      },
+      "DE.MUH.11": {
+        "level1": "new central heating system fueled by wood pellets + exhaust ventilation system",
+        "level2": "as Var 1",
+        "level3": "Bio-Methan fuelled CHP system + thermal solar system (DHW) + ventilation system with heat recovery + PV system"
+      },
+      "DE.MUH.12": {
+        "level1": "new central heating system powered by an air source heat pump + exhaust ventilation system",
+        "level2": "ground scource heat pump + exhaust ventilation system",
+        "level3": "as Var. 2 + ventilation system with heat recovery + PV system"
+      },
+      "DE.MUH.13": {
+        "level1": "new gas-fueled central heating system: condensing boiler + thermal DHW solar system + ventilation system with heat recovery",
+        "level2": "as Var. 1",
+        "level3": "as Var. 2 + CHP system"
+      },
+      "DE.MUH.14": {
+        "level1": "new central heating system fueled by wood pellets + exhaust ventilation system",
+        "level2": "as Var. 1",
+        "level3": "Bio-Methan fuelled CHP system + thermal solar system (DHW) + ventilation system with heat recovery + PV system"
+      },
+      "DE.MUH.15": {
+        "level1": "new central heating system powered by a ground source heat pump + exhaust ventilation system",
+        "level2": "as Var. 1",
+        "level3": "as Var. 2 + ventilation system with heat recovery + PV system"
+      }
+    },
+    "energy_demand": {
+      "DE.N.SFH.01.Gen": {
+        "DE.SUH.01": { "level1": 266.8, "level2": 149.9, "level3": 66.4 },
+        "DE.SUH.02": { "level1": 274.4, "level2": 143.8, "level3": 77.1 },
+        "DE.SUH.03": { "level1": 453.6, "level2": 154.5, "level3": 70.4 },
+        "DE.SUH.04": { "level1": 266.6, "level2": 125.1, "level3": 77.1 }
+      },
+      "DE.N.SFH.02.Gen": {
+        "DE.SUH.01": { "level1": 264.2, "level2": 152.9, "level3": 76.2 },
+        "DE.SUH.02": { "level1": 271.7, "level2": 147.1, "level3": 89.2 },
+        "DE.SUH.03": { "level1": 445.1, "level2": 157.9, "level3": 76.6 },
+        "DE.SUH.04": { "level1": 264.2, "level2": 129.2, "level3": 89.2 }
+      },
+      "DE.N.SFH.03.Gen": {
+        "DE.SUH.01": { "level1": 247.9, "level2": 140.3, "level3": 68.6 },
+        "DE.SUH.02": { "level1": 255.1, "level2": 133.1, "level3": 79.7 },
+        "DE.SUH.03": { "level1": 405.0, "level2": 143.7, "level3": 71.7 },
+        "DE.SUH.04": { "level1": 247.9, "level2": 112.6, "level3": 79.7 }
+      },
+      "DE.N.SFH.04.Gen": {
+        "DE.SUH.01": { "level1": 264.9, "level2": 168.9, "level3": 81.0 },
+        "DE.SUH.02": { "level1": 272.5, "level2": 165.1, "level3": 95.1 },
+        "DE.SUH.03": { "level1": 447.1, "level2": 176.3, "level3": 79.6 },
+        "DE.SUH.04": { "level1": 264.9, "level2": 149.5, "level3": 95.1 }
+      },
+      "DE.N.SFH.05.Gen": {
+        "DE.SUH.01": { "level1": 263.1, "level2": 174.8, "level3": 90.8 },
+        "DE.SUH.02": { "level1": 270.6, "level2": 171.7, "level3": 107.2 },
+        "DE.SUH.03": { "level1": 442.2, "level2": 183.3, "level3": 85.7 },
+        "DE.SUH.04": { "level1": 263.1, "level2": 157.1, "level3": 107.2 }
+      },
+      "DE.N.SFH.06.Gen": {
+        "DE.SUH.01": { "level1": 237.3, "level2": 147.2, "level3": 77.9 },
+        "DE.SUH.02": { "level1": 244.3, "level2": 140.8, "level3": 91.2 },
+        "DE.SUH.03": { "level1": 380.7, "level2": 151.5, "level3": 77.6 },
+        "DE.SUH.04": { "level1": 237.3, "level2": 121.8, "level3": 91.2 }
+      },
+      "DE.N.SFH.07.Gen": {
+        "DE.SUH.01": { "level1": 204.2, "level2": 131.3, "level3": 62.3 },
+        "DE.SUH.02": { "level1": 211.9, "level2": 122.8, "level3": 72.0 },
+        "DE.SUH.03": { "level1": 300.5, "level2": 133.5, "level3": 67.8 },
+        "DE.SUH.04": { "level1": 204.2, "level2": 99.4, "level3": 72.0 }
+      },
+      "DE.N.SFH.08.Gen": {
+        "DE.SUH.01": { "level1": 216.9, "level2": 151.3, "level3": 76.4 },
+        "DE.SUH.02": { "level1": 224.8, "level2": 145.4, "level3": 89.4 },
+        "DE.SUH.03": { "level1": 330.1, "level2": 156.2, "level3": 76.6 },
+        "DE.SUH.04": { "level1": 216.9, "level2": 127.3, "level3": 89.4 }
+      },
+      "DE.N.SFH.09.Gen": {
+      "DE.SUH.05": { "level1": 167.8, "level2": 139.0, "level3": 78.0 },
+      "DE.SUH.06": { "level1": 202.0, "level2": 176.5, "level3": 138.3 },
+      "DE.SUH.07": { "level1": 175.0, "level2": 159.2, "level3": 77.7 }
+      },
+      "DE.N.SFH.10.Gen": {
+        "DE.SUH.05": { "level1": 135.2, "level2": 112.1, "level3": 74.2 },
+        "DE.SUH.06": { "level1": 169.4, "level2": 150.0, "level3": 135.0 },
+        "DE.SUH.07": { "level1": 137.9, "level2": 132.7, "level3": 75.3 }
+      },
+      "DE.N.SFH.11.Gen": {
+        "DE.SUH.08": { "level1": 122.9, "level2": 86.9, "level3": 60.5 },
+        "DE.SUH.09": { "level1": 164.1, "level2": 145.7, "level3": 69.7 },
+        "DE.SUH.10": { "level1": 138.7, "level2": 85.4, "level3": 21.1 }
+      },
+      "DE.N.SFH.12.Gen": {
+      "DE.SUH.11": { "level1": 107.6, "level2": 79.3, "level3": 60.5 },
+      "DE.SUH.12": { "level1": 160.5, "level2": 138.7, "level3": 69.7 },
+      "DE.SUH.13": { "level1": 96.6, "level2": 81.1, "level3": 21.1 }
+    },
+    "DE.N.TH.02.Gen": {
+        "DE.SUH.01": {"level1": 239.3, "level2": 149.8, "level3": 69.6},
+        "DE.SUH.02": {"level1": 246.3, "level2": 143.7, "level3": 81.1},
+        "DE.SUH.03": {"level1": 385.1, "level2": 154.4, "level3": 72.4},
+        "DE.SUH.04": {"level1": 239.3, "level2": 125.1, "level3": 81.1}
+    },
+    "DE.N.TH.03.Gen": {
+        "DE.SUH.01": {"level1": 219.1, "level2": 126.4, "level3": 61.1},
+        "DE.SUH.02": {"level1": 227.1, "level2": 117.0, "level3": 70.5},
+        "DE.SUH.03": {"level1": 335.6, "level2": 128.1, "level3": 67.0},
+        "DE.SUH.04": {"level1": 219.1, "level2": 93.7, "level3": 70.5}
+    },
+    "DE.N.TH.04.Gen": {
+        "DE.SUH.01": {"level1": 236.3, "level2": 138.1, "level3": 70.6},
+        "DE.SUH.02": {"level1": 243.3, "level2": 130.6, "level3": 82.2},
+        "DE.SUH.03": {"level1": 378.4, "level2": 141.2, "level3": 73.0},
+        "DE.SUH.04": {"level1": 236.3, "level2": 110.2, "level3": 82.2}
+    },
+    "DE.N.TH.05.Gen": {
+        "DE.SUH.01": {"level1": 187.6, "level2": 117.9, "level3": 55.6},
+        "DE.SUH.02": {"level1": 195.6, "level2": 107.0, "level3": 63.5},
+        "DE.SUH.03": {"level1": 263.1, "level2": 118.9, "level3": 63.4},
+        "DE.SUH.04": {"level1": 187.6, "level2": 82.3, "level3": 63.5}
+    },
+    "DE.N.TH.06.Gen": {
+        "DE.SUH.01": {"level1": 208.2, "level2": 129.7, "level3": 64.4},
+        "DE.SUH.02": {"level1": 216.0, "level2": 121.0, "level3": 74.5},
+        "DE.SUH.03": {"level1": 309.8, "level2": 131.8, "level3": 69.1},
+        "DE.SUH.04": {"level1": 208.2, "level2": 98.2, "level3": 74.5}
+    },
+    "DE.N.TH.07.Gen": {
+        "DE.SUH.01": {"level1": 208.7, "level2": 143.2, "level3": 70.1},
+        "DE.SUH.02": {"level1": 216.5, "level2": 136.3, "level3": 81.6},
+        "DE.SUH.03": {"level1": 311.0, "level2": 147.0, "level3": 72.7},
+        "DE.SUH.04": {"level1": 208.7, "level2": 116.5, "level3": 81.6}
+    },
+    "DE.N.TH.08.Gen": {
+        "DE.SUH.01": {"level1": 178.5, "level2": 128.0, "level3": 59.7},
+        "DE.SUH.02": {"level1": 186.3, "level2": 118.9, "level3": 68.7},
+        "DE.SUH.03": {"level1": 241.8, "level2": 129.9, "level3": 66.1},
+        "DE.SUH.04": {"level1": 178.5, "level2": 95.2, "level3": 68.7}
+    },
+    "DE.N.TH.09.Gen": {
+        "DE.SUH.05": {"level1": 135.3, "level2": 109.5, "level3": 57.6},
+        "DE.SUH.06": {"level1": 169.5, "level2": 147.4, "level3": 116.5},
+        "DE.SUH.07": {"level1": 138.0, "level2": 130.1, "level3": 64.7}
+    },
+    "DE.N.TH.10.Gen": {
+        "DE.SUH.05": {"level1": 126.4, "level2": 108.6, "level3": 69.5},
+        "DE.SUH.06": {"level1": 160.2, "level2": 146.6, "level3": 129.9},
+        "DE.SUH.07": {"level1": 128.1, "level2": 129.3, "level3": 72.3}
+    },
+    "DE.N.TH.11.Gen": {
+        "DE.SUH.08": {"level1": 110.2, "level2": 74.4, "level3": 54.4},
+        "DE.SUH.09": {"level1": 157.4, "level2": 134.5, "level3": 62.1},
+        "DE.SUH.10": {"level1": 126.8, "level2": 77.8, "level3": 22.3}
+    },
+    "DE.N.TH.12.Gen": {
+        "DE.SUH.11": {"level1": 96.3, "level2": 68.2, "level3": 54.4},
+        "DE.SUH.12": {"level1": 148.3, "level2": 128.3, "level3": 62.1},
+        "DE.SUH.13": {"level1": 87.9, "level2": 74.7, "level3": 22.3}
+    },
+    "DE.N.MFH.01.Gen": {
+        "DE.MUH.01": {"level1": 259.2, "level2": 144.4, "level3": 66.9},
+        "DE.MUH.02": {"level1": 268.7, "level2": 143.3, "level3": 74.6},
+        "DE.MUH.03": {"level1": 458.7, "level2": 152.9, "level3": 107.9},
+        "DE.MUH.04": {"level1": 296.3, "level2": 116.2, "level3": 31.1},
+        "DE.MUH.05": {"level1": 262.5, "level2": 152.9, "level3": 82.9},
+        "DE.MUH.06": {"level1": 257.6, "level2": 124.3, "level3": 74.6}
+    },
+    "DE.N.MFH.02.Gen": {
+        "DE.MUH.01": {"level1": 216.7, "level2": 125.9, "level3": 58.4},
+        "DE.MUH.02": {"level1": 225.5, "level2": 123.4, "level3": 64.7},
+        "DE.MUH.03": {"level1": 359.5, "level2": 134.3, "level3": 97.8},
+        "DE.MUH.04": {"level1": 238.0, "level2": 100.5, "level3": 28.8},
+        "DE.MUH.05": {"level1": 217.0, "level2": 134.3, "level3": 74.1},
+        "DE.MUH.06": {"level1": 212.9, "level2": 100.7, "level3": 64.7}
+    },
+    "DE.N.MFH.03.Gen": {
+        "DE.MUH.01": {"level1": 237.8, "level2": 128.0, "level3": 66.2},
+        "DE.MUH.02": {"level1": 245.5, "level2": 125.6, "level3": 73.8},
+        "DE.MUH.03": {"level1": 409.5, "level2": 136.3, "level3": 106.8},
+        "DE.MUH.04": {"level1": 265.4, "level2": 102.3, "level3": 30.9},
+        "DE.MUH.05": {"level1": 230.6, "level2": 136.3, "level3": 82.1},
+        "DE.MUH.06": {"level1": 234.3, "level2": 103.5, "level3": 73.8}
+    },
+    "DE.N.MFH.04.Gen": {
+        "DE.MUH.01": {"level1": 225.7, "level2": 124.7, "level3": 66.4},
+        "DE.MUH.02": {"level1": 235.1, "level2": 122.0, "level3": 74.1},
+        "DE.MUH.03": {"level1": 383.8, "level2": 133.0, "level3": 107.4},
+        "DE.MUH.04": {"level1": 251.7, "level2": 99.5, "level3": 31.0},
+        "DE.MUH.05": {"level1": 227.1, "level2": 133.0, "level3": 82.4},
+        "DE.MUH.06": {"level1": 222.5, "level2": 99.0, "level3": 74.1}
+    },
+    "DE.N.MFH.05.Gen": {
+        "DE.MUH.01": {"level1": 199.7, "level2": 112.1, "level3": 58.3},
+        "DE.MUH.02": {"level1": 207.3, "level2": 108.1, "level3": 64.6},
+        "DE.MUH.03": {"level1": 321.1, "level2": 120.3, "level3": 97.7},
+        "DE.MUH.04": {"level1": 214.9, "level2": 88.7, "level3": 28.7},
+        "DE.MUH.05": {"level1": 197.8, "level2": 120.3, "level3": 74.0},
+        "DE.MUH.06": {"level1": 194.6, "level2": 83.5, "level3": 64.6}
+    },
+    "DE.N.MFH.06.Gen": {
+        "DE.MUH.01": {"level1": 203.9, "level2": 119.2, "level3": 63.2},
+        "DE.MUH.02": {"level1": 211.8, "level2": 116.0, "level3": 70.3},
+        "DE.MUH.03": {"level1": 330.5, "level2": 127.4, "level3": 103.5},
+        "DE.MUH.04": {"level1": 220.2, "level2": 94.8, "level3": 30.1},
+        "DE.MUH.05": {"level1": 202.5, "level2": 127.4, "level3": 79.1},
+        "DE.MUH.06": {"level1": 199.1, "level2": 92.1, "level3": 70.3}
+    },
+    "DE.N.MFH.07.Gen": {
+        "DE.MUH.01": {"level1": 187.9, "level2": 113.6, "level3": 59.7},
+        "DE.MUH.02": {"level1": 195.2, "level2": 109.7, "level3": 66.2},
+        "DE.MUH.03": {"level1": 295.2, "level2": 121.7, "level3": 99.5},
+        "DE.MUH.04": {"level1": 200.4, "level2": 90.0, "level3": 29.2},
+        "DE.MUH.05": {"level1": 184.9, "level2": 121.7, "level3": 75.4},
+        "DE.MUH.06": {"level1": 182.1, "level2": 85.1, "level3": 66.2}
+    },
+    "DE.N.MFH.08.Gen": {
+        "DE.MUH.01": {"level1": 191.6, "level2": 117.7, "level3": 62.4},
+        "DE.MUH.02": {"level1": 198.8, "level2": 114.5, "level3": 69.4},
+        "DE.MUH.03": {"level1": 303.4, "level2": 126.0, "level3": 102.4},
+        "DE.MUH.04": {"level1": 204.9, "level2": 93.6, "level3": 29.8},
+        "DE.MUH.05": {"level1": 188.8, "level2": 126.0, "level3": 78.3},
+        "DE.MUH.06": {"level1": 186.0, "level2": 90.6, "level3": 69.4}
+    }, 
+    "DE.N.MFH.09.Gen": {
+      "DE.MUH.07": {"level1": 136.9, "level2": 100.5, "level3": 56.5},
+      "DE.MUH.08": {"level1": 151.5, "level2": 122.9, "level3": 98.0},
+      "DE.MUH.09": {"level1": 139.1, "level2": 113.8, "level3": 49.5}
+    },
+    "DE.N.MFH.10.Gen": {
+        "DE.MUH.07": {"level1": 102.3, "level2": 84.3, "level3": 53.3},
+        "DE.MUH.08": {"level1": 114.1, "level2": 105.6, "level3": 94.5},
+        "DE.MUH.09": {"level1": 100, "level2": 97.1, "level3": 47.4}
+    },
+    "DE.N.MFH.11.Gen": {
+        "DE.MUH.10": {"level1": 105.5, "level2": 76.1, "level3": 45.9},
+        "DE.MUH.11": {"level1": 133.1, "level2": 109.5, "level3": 41.4},
+        "DE.MUH.12": {"level1": 116.3, "level2": 68.5, "level3": 15.9}
+    },
+    "DE.N.MFH.12.Gen": {
+        "DE.MUH.13": {"level1": 80.0, "level2": 60.4, "level3": 45.9},
+        "DE.MUH.14": {"level1": 128.0, "level2": 105.2, "level3": 41.4},
+        "DE.MUH.15": {"level1": 81.2, "level2": 66.0, "level3": 15.9}
+    },
+    "DE.N.AB.02.Gen": {
+        "DE.MUH.01": {"level1": 195.8, "level2": 117.2, "level3": 54.1},
+        "DE.MUH.02": {"level1": 203.1, "level2": 113.9, "level3": 59.7},
+        "DE.MUH.03": {"level1": 312.5, "level2": 125.5, "level3": 92.4},
+        "DE.MUH.04": {"level1": 210.1, "level2": 93.1, "level3": 27.5},
+        "DE.MUH.05": {"level1": 193.4, "level2": 125.5, "level3": 69.7},
+        "DE.MUH.06": {"level1": 190, "level2": 89.7, "level3": 59.7}
+      },
+      "DE.N.AB.03.Gen": {
+          "DE.MUH.01": {"level1": 214.3, "level2": 116.0, "level3": 60.0},
+          "DE.MUH.02": {"level1": 222.9, "level2": 112.6, "level3": 67.1},
+          "DE.MUH.03": {"level1": 354.1, "level2": 124.2, "level3": 100.2},
+          "DE.MUH.04": {"level1": 234.5, "level2": 92.1, "level3": 29.3},
+          "DE.MUH.05": {"level1": 214.3, "level2": 124.3, "level3": 76.2},
+          "DE.MUH.06": {"level1": 210.4, "level2": 88.4, "level3": 67.1}
+      },
+      "DE.N.AB.04.Gen": {
+          "DE.MUH.01": {"level1": 212.7, "level2": 115.1, "level3": 59.7},
+          "DE.MUH.02": {"level1": 221.2, "level2": 111.5, "level3": 66.3},
+          "DE.MUH.03": {"level1": 350.4, "level2": 123.3, "level3": 99.3},
+          "DE.MUH.04": {"level1": 232.2, "level2": 91.3, "level3": 29.1},
+          "DE.MUH.05": {"level1": 212.5, "level2": 123.3, "level3": 75.5},
+          "DE.MUH.06": {"level1": 208.6, "level2": 87.2, "level3": 66.3}
+      },
+      "DE.N.AB.05.Gen": {
+          "DE.MUH.01": {"level1": 201.2, "level2": 110.1, "level3": 59.6},
+          "DE.MUH.02": {"level1": 208.9, "level2": 105.9, "level3": 63.0},
+          "DE.MUH.03": {"level1": 324.5, "level2": 118.2, "level3": 95.9},
+          "DE.MUH.04": {"level1": 216.8, "level2": 87.0, "level3": 28.3},
+          "DE.MUH.05": {"level1": 199.5, "level2": 118.2, "level3": 72.6},
+          "DE.MUH.06": {"level1": 196.3, "level2": 81.3, "level3": 63.0}
+      },
+      "DE.N.AB.06.Gen": {
+          "DE.MUH.01": {"level1": 187.2, "level2": 106.2, "level3": 54.9},
+          "DE.MUH.02": {"level1": 194.5, "level2": 101.6, "level3": 60.6},
+          "DE.MUH.03": {"level1": 293.8, "level2": 114.2, "level3": 93.5},
+          "DE.MUH.04": {"level1": 199.6, "level2": 83.7, "level3": 27.7},
+          "DE.MUH.05": {"level1": 184.3, "level2": 114.2, "level3": 70.5},
+          "DE.MUH.06": {"level1": 181.4, "level2": 76.8, "level3": 60.6}
+      },
+      "DE.N.AB.05.HR": {
+          "DE.MUH.01": {"level1": 183.0, "level2": 100.9, "level3": 51.9},
+          "DE.MUH.02": {"level1": 190.4, "level2": 95.9, "level3": 57.1},
+          "DE.MUH.03": {"level1": 284.7, "level2": 108.7, "level3": 89.3},
+          "DE.MUH.04": {"level1": 194.6, "level2": 79.2, "level3": 26.8},
+          "DE.MUH.05": {"level1": 179.9, "level2": 108.7, "level3": 67.3},
+          "DE.MUH.06": {"level1": 177.3, "level2": 71.2, "level3": 57.1}
+      },
+      "DE.N.AB.06.HR": {
+          "DE.MUH.01": {"level1": 183.8, "level2": 102.6, "level3": 52.8},
+          "DE.MUH.02": {"level1": 191.2, "level2": 97.7, "level3": 58.2},
+          "DE.MUH.03": {"level1": 286.4, "level2": 110.5, "level3": 90.9},
+          "DE.MUH.04": {"level1": 195.5, "level2": 80.7, "level3": 27.1},
+          "DE.MUH.05": {"level1": 180.7, "level2": 110.5, "level3": 68.3},
+          "DE.MUH.06": {"level1": 178.1, "level2": 72.8, "level3": 58.2}
+      }
+    },
+    "co2_emissions": {
+      "DE.N.SFH.01.Gen": {
+        "DE.SUH.01": { "level1": 70.2, "level2": 39.3, "level3": 17.1 },
+        "DE.SUH.02": { "level1": 84.5, "level2": 44.0, "level3": 8.4 },
+        "DE.SUH.03": { "level1": 111.9, "level2": 38.1, "level3": 17.4 },
+        "DE.SUH.04": { "level1": 83.2, "level2": 37.7, "level3": 8.4 }
+      },
+      "DE.N.SFH.02.Gen": {
+        "DE.SUH.01": { "level1": 69.5, "level2": 40.1, "level3": 19.7 },
+        "DE.SUH.02": { "level1": 83.6, "level2": 45.1, "level3": 8.8 },
+        "DE.SUH.03": { "level1": 109.9, "level2": 39.0, "level3": 18.9 },
+        "DE.SUH.04": { "level1": 82.4, "level2": 38.9, "level3": 8.8 }
+      },
+      "DE.N.SFH.03.Gen": {
+        "DE.SUH.01": { "level1": 65.2, "level2": 36.8, "level3": 17.6 },
+        "DE.SUH.02": { "level1": 78.2, "level2": 40.6, "level3": 8.5 },
+        "DE.SUH.03": { "level1": 99.9, "level2": 35.5, "level3": 17.7 },
+        "DE.SUH.04": { "level1": 77.2, "level2": 33.7, "level3": 8.5 }
+      },
+      "DE.N.SFH.04.Gen": {
+        "DE.SUH.01": { "level1": 69.7, "level2": 44.3, "level3": 20.9 },
+        "DE.SUH.02": { "level1": 83.9, "level2": 50.8, "level3": 9.0 },
+        "DE.SUH.03": { "level1": 110.3, "level2": 43.5, "level3": 19.6 },
+        "DE.SUH.04": { "level1": 82.6, "level2": 45.4, "level3": 9.0 }
+      },
+      "DE.N.SFH.05.Gen": {
+        "DE.SUH.01": { "level1": 69.2, "level2": 45.9, "level3": 23.5 },
+        "DE.SUH.02": { "level1": 83.3, "level2": 52.9, "level3": 9.4 },
+        "DE.SUH.03": { "level1": 109.1, "level2": 45.2, "level3": 21.2 },
+        "DE.SUH.04": { "level1": 82.0, "level2": 47.8, "level3": 9.4 }
+      },
+      "DE.N.SFH.06.Gen": {
+        "DE.SUH.01": { "level1": 62.4, "level2": 38.6, "level3": 20.1 },
+        "DE.SUH.02": { "level1": 74.7, "level2": 43.1, "level3": 8.8 },
+        "DE.SUH.03": { "level1": 94.0, "level2": 37.4, "level3": 19.2 },
+        "DE.SUH.04": { "level1": 73.8, "level2": 36.6, "level3": 8.8 }
+      },
+      "DE.N.SFH.07.Gen": {
+        "DE.SUH.01": { "level1": 53.6, "level2": 34.4, "level3": 16.0 },
+        "DE.SUH.02": { "level1": 64.2, "level2": 37.4, "level3": 8.2 },
+        "DE.SUH.03": { "level1": 74.2, "level2": 33.0, "level3": 16.7 },
+        "DE.SUH.04": { "level1": 63.3, "level2": 29.5, "level3": 8.2 }
+      },
+      "DE.N.SFH.08.Gen": {
+        "DE.SUH.01": { "level1": 57.0, "level2": 39.7, "level3": 19.7 },
+        "DE.SUH.02": { "level1": 68.4, "level2": 44.5, "level3": 8.8 },
+        "DE.SUH.03": { "level1": 81.5, "level2": 38.5, "level3": 18.9 },
+        "DE.SUH.04": { "level1": 67.3, "level2": 38.3, "level3": 8.8 }
+      },
+      "DE.N.SFH.09.Gen": {
+      "DE.SUH.05": { "level1": 44.0, "level2": 36.3, "level3": 20.1 },
+      "DE.SUH.06": { "level1": 11.2, "level2": 11.1, "level3": 9.5 },
+      "DE.SUH.07": { "level1": 43.2, "level2": 39.3, "level3": 19.2 }
+      },
+      "DE.N.SFH.10.Gen": {
+        "DE.SUH.05": { "level1": 35.4, "level2": 29.2, "level3": 19.1 },
+        "DE.SUH.06": { "level1": 10.4, "level2": 110.4, "level3": 9.4 },
+        "DE.SUH.07": { "level1": 34.0, "level2": 32.7, "level3": 18.6 }
+      },
+      "DE.N.SFH.11.Gen": {
+        "DE.SUH.08": { "level1": 32.0, "level2": 22.5, "level3": 15.5 },
+        "DE.SUH.09": { "level1": 10.8, "level2": 9.8, "level3": 8.1 },
+        "DE.SUH.10": { "level1": 34.2, "level2": 21.1, "level3": 5.2 }
+      },
+      "DE.N.SFH.12.Gen": {
+      "DE.SUH.11": { "level1": 28.0, "level2": 20.5, "level3": 15.5 },
+      "DE.SUH.12": { "level1": 10.2, "level2": 9.6, "level3": 8.1 },
+      "DE.SUH.13": { "level1": 23.8, "level2": 20.0, "level3": 5.2 }
+    },
+    "DE.N.TH.02.Gen": {
+        "DE.SUH.01": {"level1": 62.9, "level2": 39.3, "level3": 17.9},
+        "DE.SUH.02": {"level1": 75.4, "level2": 44.0, "level3": 8.5},
+        "DE.SUH.03": {"level1": 95.1, "level2": 38.1, "level3": 17.9},
+        "DE.SUH.04": {"level1": 74.5, "level2": 37.6, "level3": 8.5}
+    },
+    "DE.N.TH.03.Gen": {
+        "DE.SUH.01": {"level1": 57.6, "level2": 33.1, "level3": 15.7},
+        "DE.SUH.02": {"level1": 69.1, "level2": 35.5, "level3": 8.2},
+        "DE.SUH.03": {"level1": 82.8, "level2": 31.6, "level3": 16.5},
+        "DE.SUH.04": {"level1": 68.0, "level2": 27.7, "level3": 8.2}
+    },
+    "DE.N.TH.04.Gen": {
+        "DE.SUH.01": {"level1": 62.1, "level2": 36.2, "level3": 18.2},
+        "DE.SUH.02": {"level1": 74.4, "level2": 39.8, "level3": 8.6},
+        "DE.SUH.03": {"level1": 93.4, "level2": 34.9, "level3": 18.0},
+        "DE.SUH.04": {"level1": 73.5, "level2": 32.9, "level3": 8.6}
+    },
+    "DE.N.TH.05.Gen": {
+        "DE.SUH.01": {"level1": 49.3, "level2": 30.8, "level3": 14.2},
+        "DE.SUH.02": {"level1": 58.9, "level2": 32.4, "level3": 7.9},
+        "DE.SUH.03": {"level1": 64.9, "level2": 29.3, "level3": 15.7},
+        "DE.SUH.04": {"level1": 58.0, "level2": 24.1, "level3": 7.9}
+    },
+    "DE.N.TH.06.Gen": {
+        "DE.SUH.01": {"level1": 54.7, "level2": 34.0, "level3": 16.5},
+        "DE.SUH.02": {"level1": 65.5, "level2": 36.8, "level3": 8.3},
+        "DE.SUH.03": {"level1": 76.5, "level2": 32.5, "level3": 17.0},
+        "DE.SUH.04": {"level1": 64.6, "level2": 29.1, "level3": 8.3}
+    },
+    "DE.N.TH.07.Gen": {
+        "DE.SUH.01": {"level1": 54.8, "level2": 37.5, "level3": 18.0},
+        "DE.SUH.02": {"level1": 65.7, "level2": 41.6, "level3": 8.5},
+        "DE.SUH.03": {"level1": 76.8, "level2": 36.3, "level3": 17.9},
+        "DE.SUH.04": {"level1": 64.7, "level2": 34.9, "level3": 8.5}
+    },
+    "DE.N.TH.08.Gen": {
+        "DE.SUH.01": {"level1": 46.8, "level2": 33.5, "level3": 15.3},
+        "DE.SUH.02": {"level1": 55.9, "level2": 36.1, "level3": 8.1},
+        "DE.SUH.03": {"level1": 59.7, "level2": 32.1, "level3": 16.3},
+        "DE.SUH.04": {"level1": 55.1, "level2": 28.2, "level3": 8.1}
+    },
+    "DE.N.TH.09.Gen": {
+        "DE.SUH.05": {"level1": 35.4, "level2": 28.5, "level3": 14.7},
+        "DE.SUH.06": {"level1": 10.4, "level2": 10.3, "level3": 8.9},
+        "DE.SUH.07": {"level1": 34.1, "level2": 32.1, "level3": 16.0}
+    },
+    "DE.N.TH.10.Gen": {
+        "DE.SUH.05": {"level1": 33.1, "level2": 28.3, "level3": 17.9},
+        "DE.SUH.06": {"level1": 10.1, "level2": 10.3, "level3": 9.3},
+        "DE.SUH.07": {"level1": 31.6, "level2": 31.9, "level3": 17.9}
+    },
+    "DE.N.TH.11.Gen": {
+        "DE.SUH.08": {"level1": 28.7, "level2": 19.2, "level3": 13.9},
+        "DE.SUH.09": {"level1": 10.6, "level2": 9.4, "level3": 7.9},
+        "DE.SUH.10": {"level1": 31.3, "level2": 19.2, "level3": 5.5}
+    },
+    "DE.N.TH.12.Gen": {
+        "DE.SUH.11": {"level1": 25.0, "level2": 17.5, "level3": 13.9},
+        "DE.SUH.12": {"level1": 9.8, "level2": 9.3, "level3": 7.9},
+        "DE.SUH.13": {"level1": 21.7, "level2": 18.4, "level3": 5.5}
+    },
+    "DE.N.MFH.01.Gen": {
+        "DE.MUH.01": {"level1": 68.3, "level2": 38.0, "level3": 17.4},
+        "DE.MUH.02": {"level1": 86.2, "level2": 44.5, "level3": 6.0},
+        "DE.MUH.03": {"level1": 113.2, "level2": 40.1, "level3": 5.0},
+        "DE.MUH.04": {"level1": 68.4, "level2": 25.8, "level3": 6.5},
+        "DE.MUH.05": {"level1": 69.1, "level2": 40.1, "level3": 21.5},
+        "DE.MUH.06": {"level1": 80.7, "level2": 38.1, "level3": 6.0}
+    },
+    "DE.N.MFH.02.Gen": {
+        "DE.MUH.01": {"level1": 57.1, "level2": 33.1, "level3": 15.2},
+        "DE.MUH.02": {"level1": 68.5, "level2": 38.3, "level3": 5.6},
+        "DE.MUH.03": {"level1": 88.7, "level2": 35.2, "level3": 5.0},
+        "DE.MUH.04": {"level1": 55.0, "level2": 22.3, "level3": 6.1},
+        "DE.MUH.05": {"level1": 57.1, "level2": 35.2, "level3": 19.2},
+        "DE.MUH.06": {"level1": 66.6, "level2": 30.7, "level3": 5.6}
+    },
+    "DE.N.MFH.03.Gen": {
+        "DE.MUH.01": {"level1": 62.7, "level2": 33.7, "level3": 17.2},
+        "DE.MUH.02": {"level1": 75.0, "level2": 39.0, "level3": 5.9},
+        "DE.MUH.03": {"level1": 101.1, "level2": 35.7, "level3": 5.0},
+        "DE.MUH.04": {"level1": 61.3, "level2": 22.7, "level3": 6.5},
+        "DE.MUH.05": {"level1": 62.8, "level2": 35.7, "level3": 21.3},
+        "DE.MUH.06": {"level1": 73.3, "level2": 31.5, "level3": 5.9}
+    },
+    "DE.N.MFH.04.Gen": {
+        "DE.MUH.01": {"level1": 59.5, "level2": 32.8, "level3": 17.3},
+        "DE.MUH.02": {"level1": 71.6, "level2": 37.8, "level3": 5.9},
+        "DE.MUH.03": {"level1": 94.7, "level2": 34.8, "level3": 5.1},
+        "DE.MUH.04": {"level1": 58.2, "level2": 22.1, "level3": 6.5},
+        "DE.MUH.05": {"level1": 59.7, "level2": 34.8, "level3": 21.3},
+        "DE.MUH.06": {"level1": 69.6, "level2": 30.1, "level3": 5.9}
+    },
+    "DE.N.MFH.05.Gen": {
+        "DE.MUH.01": {"level1": 52.6, "level2": 29.5, "level3": 15.1},
+        "DE.MUH.02": {"level1": 62.6, "level2": 33.5, "level3": 5.6},
+        "DE.MUH.03": {"level1": 79.3, "level2": 31.5, "level3": 5.0},
+        "DE.MUH.04": {"level1": 49.7, "level2": 19.7, "level3": 6.1},
+        "DE.MUH.05": {"level1": 52.0, "level2": 31.5, "level3": 19.1},
+        "DE.MUH.06": {"level1": 60.8, "level2": 25.3, "level3": 5.6}
+    },
+    "DE.N.MFH.06.Gen": {
+        "DE.MUH.01": {"level1": 53.7, "level2": 31.3, "level3": 16.4},
+        "DE.MUH.02": {"level1": 64.1, "level2": 36.0, "level3": 5.8},
+        "DE.MUH.03": {"level1": 81.6, "level2": 33.4, "level3": 5.0},
+        "DE.MUH.04": {"level1": 50.9, "level2": 21.1, "level3": 6.3},
+        "DE.MUH.05": {"level1": 53.2, "level2": 33.4, "level3": 20.5},
+        "DE.MUH.06": {"level1": 62.2, "level2": 28.0, "level3": 5.8}
+    },
+    "DE.N.MFH.07.Gen": {
+        "DE.MUH.01": {"level1": 49.5, "level2": 29.8, "level3": 15.5},
+        "DE.MUH.02": {"level1": 58.7, "level2": 34.0, "level3": 5.7},
+        "DE.MUH.03": {"level1": 72.9, "level2": 31.9, "level3": 5.2},
+        "DE.MUH.04": {"level1": 46.3, "level2": 20.0, "level3": 6.1},
+        "DE.MUH.05": {"level1": 48.6, "level2": 31.9, "level3": 19.5},
+        "DE.MUH.06": {"level1": 56.9, "level2": 25.8, "level3": 5.7}
+    },
+    "DE.N.MFH.08.Gen": {
+        "DE.MUH.01": {"level1": 50.5, "level2": 30.9, "level3": 16.2},
+        "DE.MUH.02": {"level1": 59.9, "level2": 35.5, "level3": 5.8},
+        "DE.MUH.03": {"level1": 74.9, "level2": 33.0, "level3": 5.3},
+        "DE.MUH.04": {"level1": 47.4, "level2": 20.8, "level3": 6.3},
+        "DE.MUH.05": {"level1": 49.6, "level2": 33.0, "level3": 20.3},
+        "DE.MUH.06": {"level1": 58.1, "level2": 27.5, "level3": 5.8}
+    }, 
+    "DE.N.MFH.09.Gen": {
+      "DE.MUH.07": {"level1": 36.0, "level2": 26.3, "level3": 14.6},
+      "DE.MUH.08": {"level1": 7.0, "level2": 6.6, "level3": 5.7},
+      "DE.MUH.09": {"level1": 34.3, "level2": 28.1, "level3": 12.2}
+    },
+    "DE.N.MFH.10.Gen": {
+        "DE.MUH.07": {"level1": 26.9, "level2": 22.1, "level3": 13.8},
+        "DE.MUH.08": {"level1": 5.7, "level2": 6.0, "level3": 5.6},
+        "DE.MUH.09": {"level1": 24.7, "level2": 24.0, "level3": 11.7}
+    },
+    "DE.N.MFH.11.Gen": {
+        "DE.MUH.10": {"level1": 27.7, "level2": 19.9, "level3": 11.6},
+        "DE.MUH.11": {"level1": 6.9, "level2": 6.1, "level3": 2.7},
+        "DE.MUH.12": {"level1": 28.7, "level2": 16.9, "level3": 3.9}
+    },
+    "DE.N.MFH.12.Gen": {
+        "DE.MUH.13": {"level1": 20.8, "level2": 15.7, "level3": 11.6},
+        "DE.MUH.14": {"level1": 6.8, "level2": 6.0, "level3": 2.7},
+        "DE.MUH.15": {"level1": 20.0, "level2": 16.3, "level3": 3.9}
+    },
+    "DE.N.AB.02.Gen": {
+        "DE.MUH.01": {"level1": 51.6, "level2": 30.8, "level3": 14.0},
+        "DE.MUH.02": {"level1": 61.3, "level2": 35.3, "level3": 5.4},
+        "DE.MUH.03": {"level1": 77.1, "level2": 32.8, "level3": 5},
+        "DE.MUH.04": {"level1": 48.6, "level2": 20.7, "level3": 5.8},
+        "DE.MUH.05": {"level1": 50.8, "level2": 32.8, "level3": 18.0},
+        "DE.MUH.06": {"level1": 59.5, "level2": 27.2, "level3": 5.4}
+      },
+      "DE.N.AB.03.Gen": {
+          "DE.MUH.01": {"level1": 56.5, "level2": 30.5, "level3": 15.7},
+          "DE.MUH.02": {"level1": 67.9, "level2": 34.9, "level3": 5.7},
+          "DE.MUH.03": {"level1": 87.4, "level2": 32.5, "level3": 5.0},
+          "DE.MUH.04": {"level1": 54.2, "level2": 20.5, "level3": 6.2},
+          "DE.MUH.05": {"level1": 56.3, "level2": 32.5, "level3": 19.7},
+          "DE.MUH.06": {"level1": 65.8, "level2": 26.8, "level3": 5.7}
+      },
+      "DE.N.AB.04.Gen": {
+          "DE.MUH.01": {"level1": 56.0, "level2": 30.2, "level3": 15.5},
+          "DE.MUH.02": {"level1": 67.1, "level2": 34.5, "level3": 5.7},
+          "DE.MUH.03": {"level1": 86.5, "level2": 32.3, "level3": 5.0},
+          "DE.MUH.04": {"level1": 53.7, "level2": 20.3, "level3": 6.1},
+          "DE.MUH.05": {"level1": 55.9, "level2": 32.3, "level3": 19.5},
+          "DE.MUH.06": {"level1": 65.2, "level2": 26.4, "level3": 5.7}
+      },
+      "DE.N.AB.05.Gen": {
+          "DE.MUH.01": {"level1": 53.0, "level2": 28.9, "level3": 14.8},
+          "DE.MUH.02": {"level1": 63.1, "level2": 32.8, "level3": 5.5},
+          "DE.MUH.03": {"level1": 80.1, "level2": 30.9, "level3": 5.0},
+          "DE.MUH.04": {"level1": 50.1, "level2": 19.3, "level3": 6.0},
+          "DE.MUH.05": {"level1": 52.4, "level2": 30.9, "level3": 18.8},
+          "DE.MUH.06": {"level1": 61.3, "level2": 24.5, "level3": 5.5}
+      },
+      "DE.N.AB.06.Gen": {
+          "DE.MUH.01": {"level1": 49.3, "level2": 27.9, "level3": 14.2},
+          "DE.MUH.02": {"level1": 58.5, "level2": 31.4, "level3": 5.5},
+          "DE.MUH.03": {"level1": 72.5, "level2": 29.9, "level3": 4.9},
+          "DE.MUH.04": {"level1": 46.2, "level2": 18.6, "level3": 5.9},
+          "DE.MUH.05": {"level1": 48.4, "level2": 29.9, "level3": 18.2},
+          "DE.MUH.06": {"level1": 56.7, "level2": 23.1, "level3": 5.5}
+      },
+      "DE.N.AB.05.HR": {
+          "DE.MUH.01": {"level1": 48.2, "level2": 26.5, "level3": 13.4},
+          "DE.MUH.02": {"level1": 57.2, "level2": 29.6, "level3": 5.3},
+          "DE.MUH.03": {"level1": 70.3, "level2": 28.4, "level3": 4.8},
+          "DE.MUH.04": {"level1": 45.0, "level2": 17.6, "level3": 5.7},
+          "DE.MUH.05": {"level1": 47.2, "level2": 28.4, "level3": 17.4},
+          "DE.MUH.06": {"level1": 55.4, "level2": 21.4, "level3": 5.3}
+      },
+      "DE.N.AB.06.HR": {
+          "DE.MUH.01": {"level1": 48.4, "level2": 26.9, "level3": 13.7},
+          "DE.MUH.02": {"level1": 57.4, "level2": 30.2, "level3": 5.4},
+          "DE.MUH.03": {"level1": 70.7, "level2": 28.9, "level3": 4.8},
+          "DE.MUH.04": {"level1": 45.2, "level2": 17.9, "level3": 5.7},
+          "DE.MUH.05": {"level1": 47.4, "level2": 28.9, "level3": 17.6},
+          "DE.MUH.06": {"level1": 55.6, "level2": 21.9, "level3": 5.4}
+      }
+    }
+  }
+
+  
